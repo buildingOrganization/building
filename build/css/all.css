@@ -1,0 +1,41 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.homePage {
+  height: 100%;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.homePage img {
+  width: 150px;
+}
+
+.homePage .title {
+  margin: 40px 0 70px;
+  text-align: center;
+}
+
+.homePage .menu a {
+  margin: 0 10px;
+  color: #7d7d7d;
+}
+
+.titleContainer {
+  height: 50px;
+  background-color: #f2f2f2;
+  padding: 25px 0;
+}
+
+.titleContainer img {
+  width: 50px;
+  margin-left: 30px;
+}
