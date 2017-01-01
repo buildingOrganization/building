@@ -9,7 +9,7 @@ var gulp = require('gulp'),
     concatCss = require('gulp-concat-css');
 
 gulp.task('uglify',function () {
-    return gulp.src('js/**/*.js')
+    return gulp.src('app/**/*.js')
         .pipe(uglify())
         .pipe(concat('all.js'))
         .pipe(gulp.dest('build/js'))
@@ -18,12 +18,12 @@ gulp.task('uglify',function () {
 //定义html任务
 gulp.task('html', function () {
     gulp.src('app/**/*.html')
-        .pipe(gulp.dest("dist"))
+        // .pipe(gulp.dest("dist"))
         .pipe(connect.reload());
 });
 //less
 gulp.task('less',function(){
-    return gulp.src('less/**/*.less')
+    return gulp.src('app/**/*.less')
         .pipe(less())
         .pipe(concatCss('all.css'))
         .pipe(gulp.dest('build/css'))
@@ -38,8 +38,8 @@ gulp.task('connect', function () {
 //定义看守任务
 gulp.task('watch', function () {
     gulp.watch('app/**/*.html', ['html']);
-    gulp.watch('js/**/*.js',['uglify']);
-    gulp.watch('less/**/*.less',['less']);
+    gulp.watch('app/**/*.js',['uglify']);
+    gulp.watch('app/**/*.less',['less']);
 });
 //自动编译文件
 
