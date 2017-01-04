@@ -1,11 +1,9 @@
-body{
-  min-width: 800px;
-  overflow: auto;
-}
 .titleContainer{
   height: 65px;
   background-color: #f2f2f2;
   padding: 30px 0;
+  position: relative;
+  z-index: 2;
   p{
     display: inline-block;
     height: 100%;
@@ -20,13 +18,44 @@ body{
       margin: 0 30px;
       color: #7d7d7d;
     }
-    .selected{
-      color: #000;
-      cursor: pointer;
-    }
   }
   img{
     width: 60px;
     margin-left: 45px;
   }
+  .menuContainer{
+    float: right;
+    position: relative;
+    span{
+      display: inline-block;
+      margin-top: 20px;
+      margin-right: 20px;
+      width: 20px;
+      height: 20px;
+      background: url("../../../image/Category.png") no-repeat;
+      background-size: 100%;
+    }
+  }
 }
+.menuBtnContainer{
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  background-color: #f2f2f2;
+  border-top: 1px solid #000;
+  a{
+    display: none;
+    padding-left: 60px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #aaa;
+    color: #7d7d7d;
+  }
+}
+.selected{
+  color: #000 !important;
+  cursor: pointer;
+}
+.clearfix { *overflow: hidden; *zoom: 1; }
+.clearfix:after { display: block; content: ""; width: 0; clear: both; }
