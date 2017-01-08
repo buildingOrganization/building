@@ -4,31 +4,62 @@
     margin: 86px auto 0;
     padding-left: 10px;
     .objectItem{
+      position: relative;
       float: left;
-      //border: 1px solid;
+      margin-top: 20px;
+      img{
+        width: 95%;
+        &:hover {
+          opacity: .8;
+          cursor: pointer;
+          filter:alpha(opacity=80);
+        }
+      }
+      span{
+        display: none;
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+      }
+    }
+    .objectItem:hover{
+      span{
+        display: inline-block;
+      }
+    }
+    @media screen and (min-width: 0px) {
+      .objectItem{
+        width: 100%;
+      }
+    }
+    //@media screen and (min-width: 480px) {
+    //  .objectItem{
+    //    width: 50%;
+    //  }
+    //}
+    @media screen and (min-width: 720px) {
+      .objectItem{
+        width: 50%;
+      }
     }
     @media screen and (min-width: 1280px) {
       .objectItem{
         width: 33.3%;
-        height: 180px;
       }
     }
     @media screen and (min-width: 1366px) {
       .objectItem{
         width: 33.3%;
-        height: 180px;
       }
     }
     @media screen and (min-width: 1440px) {
       .objectItem{
         width: 33.3%;
-        height: 180px;
       }
     }
     @media screen and (min-width: 1600px) {
       .objectItem{
-        width: 20%;
-        height: 180px;
+        width: 33.3%;
       }
     }
     @media screen and (min-width: 1920px) {

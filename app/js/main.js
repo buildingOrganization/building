@@ -22,11 +22,11 @@ var main = {
         })
         $('.titleContainer').delegate('.menuContainer','click',function () {
             if($('.menuBtnContainer').find('a').css('display')=='block'){
-                $('.menuBtnContainer').find('a').css('display','none')
                 $('.menuBtnContainer').css({'border-top':'none','top':'0','transition':'top 0.5s'})
+                $('.menuBtnContainer').find('a').css('display','none')
             }else{
                 $('.menuBtnContainer').find('a').css('display','block')
-                $('.menuBtnContainer').css({'border-top':'1px solid #aaa','top':'125px','transition':'top 0.5s'})
+                $('.menuBtnContainer').css({'border-top':'1px solid #aaa','top':'125px','transition':'top 0.3s'})
             }
         })
         $('body').on('click',function (e) {
@@ -43,3 +43,19 @@ var main = {
         }
     }
 }._init()
+$.getQueryParams = function(qstr) {
+    qstr = qstr || location.search;
+    var index = qstr.indexOf('?'), //
+        params = {};
+    if (index != -1) {
+        qstr = qstr.substring(index + 1);
+    }
+    if (qstr) {
+        qstr = qstr.split('&');
+        for ( var i in qstr) {
+            var kv = qstr[i].split('=');
+            params[kv[0]] = kv[1] || '';
+        }
+    }
+    return params;
+};

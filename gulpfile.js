@@ -11,8 +11,7 @@ var gulp = require('gulp'),
 gulp.task('uglify',function () {
     return gulp.src('app/**/*.js')
         .pipe(uglify())
-        .pipe(concat('all.js'))
-        .pipe(gulp.dest('app/build/js'))
+        .pipe(gulp.dest('app/build'))
         .pipe(connect.reload())
 });
 //定义html任务
