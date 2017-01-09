@@ -9,9 +9,10 @@ var gulp = require('gulp'),
     concatCss = require('gulp-concat-css');
 
 gulp.task('uglify',function () {
-    return gulp.src('app/**/*.js')
+    return gulp.src('js/**/*.js')
         .pipe(uglify())
-        .pipe(gulp.dest('app/build'))
+        .pipe(concat('main.js'))
+        .pipe(gulp.dest('build'))
         .pipe(connect.reload())
 });
 //定义html任务
@@ -22,10 +23,10 @@ gulp.task('html', function () {
 });
 //less
 gulp.task('less',function(){
-    return gulp.src('app/**/*.less')
+    return gulp.src('less/**/*.less')
         .pipe(less())
         .pipe(concatCss('all.css'))
-        .pipe(gulp.dest('app/build/css'))
+        .pipe(gulp.dest('build/css'))
         .pipe(connect.reload());
 })
 //浏览器自动刷新
