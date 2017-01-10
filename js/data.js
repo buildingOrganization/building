@@ -12,7 +12,7 @@ var objectData = [
     {
         name:'竹泉隐院',
         area:'约3000平方米',
-        date:'约3000平方米',
+        date:'2013年',
         img:['../image/2-1.png','../image/2-2.png','../image/2-3.png','../image/2-4.png','../image/2-5.png','../image/2-6.png'],
         description:'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中国古代的合院，一般都是屋舍或围墙把内部和外部完全隔离开来，仅通过门作为连接。这样的格局对外是为了安全，保护隐私，抵御外患；对内是为了形成安静私密的环境，以及维持家庭的宗法礼制。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;生在太平盛世的院子，脱去了窒息的铠甲，打开了私密的心扉。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作为连接两个公共场所的院子，它既遮掩又显露，既端庄又恣意，时而隐藏，时而出现，时而传统，时而颠覆，游刃于万变周遭之中而有余，这种姿态是一种生命力的呈现。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;明竹西隐，唏唏嘘嘘，月显隐叶丛，<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;暗泉东涌，叮叮咚咚，月沉浮波中，<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;眉目以上，膝盖以下，墙实莫如空，<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;合院之内，方寸之处，变幻也无穷。'
     },
