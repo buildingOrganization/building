@@ -13,28 +13,28 @@ var objectData = [
         name:'竹泉隐院',
         area:'约3000平方米',
         date:'约3000平方米',
-        img:['../image/object-3.png','../image/object-4.png','../image/object-4.png','../image/object-4.png','../image/object-4.png'],
+        img:['../image/2-1.png','../image/2-2.png','../image/2-3.png','../image/2-4.png','../image/2-5.png','../image/2-6.png'],
         description:'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中国古代的合院，一般都是屋舍或围墙把内部和外部完全隔离开来，仅通过门作为连接。这样的格局对外是为了安全，保护隐私，抵御外患；对内是为了形成安静私密的环境，以及维持家庭的宗法礼制。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;生在太平盛世的院子，脱去了窒息的铠甲，打开了私密的心扉。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作为连接两个公共场所的院子，它既遮掩又显露，既端庄又恣意，时而隐藏，时而出现，时而传统，时而颠覆，游刃于万变周遭之中而有余，这种姿态是一种生命力的呈现。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;明竹西隐，唏唏嘘嘘，月显隐叶丛，<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;暗泉东涌，叮叮咚咚，月沉浮波中，<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;眉目以上，膝盖以下，墙实莫如空，<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;合院之内，方寸之处，变幻也无穷。'
     },
     {
         name:'农夫茶坊',
         area:'约700平方米',
         date:'2016年',
-        img:[],
+        img:['../image/3-1.png','../image/3-2.png','../image/3-3.png','../image/3-4.png','../image/3-5.png','../image/3-6.png','../image/3-7.png'],
         description:'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;项目功能需求为茶叶制作的工坊，地处茶山脚下纯粹的自然环境之中，外在是一个无法逾越的自然大美，因此项目外在考虑依循天地之形势，提取周遭环境中的林林种种，营造一个生于斯长于斯的大同境界。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在中国茶道中，尊人的思想在表现形式上常见于对茶具的命名以及对茶的认识上，建筑亦当体现“礼”的文化内涵：建筑以礼仪中庭为核心，所有的功能都围绕着中庭有序展开，满足茶叶制作过程的各种要求。由于茶叶具有色，声，香，味，触的五感体验，建筑的各项功能构造亦考虑了将这五种感觉传递到建筑的意境中去。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;由此，项目的设计理念是“外融内礼”。取环境之本色，外部形象构建天人合一的融合之境，此谓之“外融”；取茶道之精要，内部空间营造茶道文化的仪礼之序，此谓之“内礼”。'
     },
     {
         name:'聚光中心',
         area:'约400平方米',
         date:'2014年',
-        img:[],
+        img:['../image/4-1.png','../image/4-2.png','../image/4-3.png','../image/4-4.png'],
         description:'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;项目选址为聚光科技物联网产业园区中央景观花园内部。建筑被赋予虚实两种功能——虚功能是指聚光中心的位置位于主入口的中轴线上，起到视觉对景的作用，同时使五千平方米的中央水景花园层次化，立体化。实功能是指聚光中心的外部作用是联系了地面层和地下车库层，使停车流线具有休闲性和趣味性。 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在建筑营造上，建筑采用高性能双层中空钢化夹层全玻幕墙的立面处理，增强庭院的进深感的同时，亦可以随着庭院的时间变化而发生变化，发挥玻璃圆融的材料特性，正所谓：晴日隐约迷离，夜月光彩卓悦，影木簇叶深深，映泉波光粼粼，对环境变化的巧妙回应，只因本质纯真而且透明。'
     },
     {
         name:'中豪国际',
         area:'180000平方米',
         date:'2015年',
-        img:[],
+        img:['../image/5-1.png','../image/5-2.png','../image/5-3.png','../image/5-4.png'],
         description:'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中豪国际是集商业，办公，酒店，娱乐等功能为一体的界面型城市综合体项目。设计从地块周边城市环境着手，将生活居住区和城市商业区联系起来，打造出既适合于周边居民活动的生活街区，又适合于城市人群购物的商业街区的“都市街院”。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;设计对功能之间的联系做文章，而非单纯的功能叠加；在整体气氛的营造中下功夫，而非简单的形式堆砌。规划整体布局分为三大区块，每个区块之间形成了独特的空间定义——介于半内向型的广场和半外向型的内院之间的空间。每个区块自成一体，可分可合。办公区的入口通过一个半内向型的广场空间进入，闹中取静，与商业相得益彰，浑然一体。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;项目用地属村级留用地，开发涉及到多元利益分配的问题。面对外界各种条件的限制，设计采用化繁为简的方法，以相对均分的体量构成建筑群体，完美解决商业地产开发中经济，技术，经营等等各种问题。'
     }
 ]
