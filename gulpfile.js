@@ -36,9 +36,9 @@ gulp.task('connect', function () {
 });
 //定义看守任务
 gulp.task('watch', function () {
-    gulp.watch('app/**/*.html', ['html']);
-    gulp.watch('app/**/*.js',['uglify']);
-    gulp.watch('app/**/*.less',['less']);
+    gulp.watch('html/**/*.html', ['html']);
+    gulp.watch('js/**/*.js',['uglify']);
+    gulp.watch('less/**/*.less',['less']);
 });
 //自动编译文件
 
