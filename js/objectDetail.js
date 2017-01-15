@@ -18,6 +18,8 @@ var objectDetail = {
             if ($el[0].className != 'slideImg' && $el[0].className != 'swiper-button-next'&& $el[0].className != 'swiper-button-prev'&&$el.parents('.slideContainer').length>0|| $el[0].className == 'slideContainer') {
                 $('.slideContainer').hide()
                 $('body').css('overflow','auto')
+                $('ps-next').css('position','absolute')
+                console.log('1111,block',$('ps-list'))
             }
         })
         $(window).resize(function () {
@@ -58,6 +60,9 @@ var objectDetail = {
             // width : window.innerWidth
         })
         $('body').css('overflow','hidden')
+        $('ps-next').css('position','static')
+        console.log('22222,none',$('ps-list'))
+
     }
 }._init()
 
