@@ -19,10 +19,15 @@ footer{
   height: 50px;
   color: #c0c0c0;
   font-size: 12px;
+  overflow: hidden;
   p{
     width: 80%;
-    margin: 0 auto;
+    margin: 50px auto 0;
     line-height: 20px;
+    transition: .5s;
+  }
+  &:hover p{
+    margin-top: 0;
   }
 }
 footer:hover p{
