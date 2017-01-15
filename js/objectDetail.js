@@ -29,7 +29,7 @@ var objectDetail = {
         $('.mainImg').append("<img class='img' index='0' src='"+this.data.img[0]+"'>")
         $.each(this.data.img,function (i, item) {
             if(i>0){
-                dom += "<img class='img' index='"+i+"' src='"+item+"'>"
+                dom += "<li><img class='img' index='"+i+"' src='"+item+"'></li>"
             }
         })
         $('.subImg').append(dom)
@@ -60,3 +60,7 @@ var objectDetail = {
         $('body').css('overflow','hidden')
     }
 }._init()
+
+$(document).ready(function() {
+    $('.pgwSlideshow').pgwSlideshow();
+});
