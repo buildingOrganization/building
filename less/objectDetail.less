@@ -23,13 +23,35 @@
       width: 45%;
       float: left;
       font-size: 13px;
-      color: #808080;
+      color: #919191;
+      letter-spacing: 1px;
       p{
         height: 25px;
         line-height: 25px;
         padding-left: 30px;
+        &::selection {
+          color: #000;
+          font-size: 14px;
+          font-weight: bold;
+        }
+        &::-moz-selection {
+          color: #000;
+          font-size: 14px;
+          font-weight: bold;
+        }
         span{
           text-indent: 2em;
+          &::selection {
+            color: #000;
+            font-size: 14px;
+            font-weight: bold;
+          }
+
+          &::-moz-selection {
+            color: #000;
+            font-size: 14px;
+            font-weight: bold;
+          }
         }
       }
     }
