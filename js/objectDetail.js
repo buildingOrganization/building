@@ -26,11 +26,8 @@ var objectDetail = {
     },
     _renderPage : function () {
         var dom = ''
-        $('.mainImg').append("<img class='img' index='0' src='"+this.data.img[0]+"'>")
         $.each(this.data.img,function (i, item) {
-            if(i>0){
-                dom += "<li><img class='img' index='"+i+"' src='"+item+"'></li>"
-            }
+            dom += "<li><img class='img' style='height: 80px;' index='"+i+"' src='"+item+"'></li>"
         })
         $('.subImg').append(dom)
         $('.name').text(this.data.name)
@@ -61,6 +58,6 @@ var objectDetail = {
     }
 }._init()
 
-$(document).ready(function() {
+window.onload = function() {
     $('.pgwSlideshow').pgwSlideshow();
-});
+};
