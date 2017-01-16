@@ -26,8 +26,11 @@ var objectDetail = {
     },
     _renderPage : function () {
         var dom = ''
+        $('.mainImg').append("<img class='img' index='0' src='"+this.data.img[0]+"'>")
         $.each(this.data.img,function (i, item) {
-            dom += "<li><img class='img' style='width:auto; height: 80px;' index='"+i+"' src='"+item+"'></li>"
+            if(i>0){
+                dom += "<img class='img' index='"+i+"' src='"+item+"'>"
+            }
         })
         $('.subImg').append(dom)
         $('.name').text(this.data.name)
@@ -57,12 +60,3 @@ var objectDetail = {
         $('body').css('overflow','hidden')
     }
 }._init()
-
-window.onload = function() {
-    $('.pgwSlideshow').pgwSlideshow();
-    $('.ps-current').find('img:first-child').addClass('img').attr('index','0')
-    var imgList = $('.ps-current').find('img')
-    $.each(imgList,function (i, item) {
-        $(item).attr('index',i)
-    })
-};
