@@ -60,4 +60,9 @@ var objectDetail = {
 
 window.onload = function() {
     $('.pgwSlideshow').pgwSlideshow();
+    $('.ps-current').find('img:first-child').addClass('img').attr('index','0')
+    var imgList = $('.ps-current').find('img')
+    $.each(imgList,function (i, item) {
+        $(item).attr('index',i)
+    })
 };
