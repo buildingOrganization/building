@@ -1,4 +1,5 @@
 .introduce{
+  padding-bottom: 50px;
   .contentItem:first-child{
     margin-top: 50px;
   }
@@ -6,11 +7,21 @@
     width: 60%;
     max-width: 900px;
     margin: 40px auto;
-    p{
-      font-size: 14px;
+    p,a{
+      font-size: 13px;
       line-height: 28px;
-      color: #666666;
+      color: #808080;
       letter-spacing: 1px;
+      &::selection {
+        color: #000;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      &::-moz-selection {
+        color: #000;
+        font-size: 14px;
+        font-weight: bold;
+      }
     }
     .introduceContent{
       text-indent: 2em;

@@ -9,19 +9,32 @@
       text-align: center;
       p{
         text-indent: 2em;
-        font-size: 14px;
-        color: #666666;
+        font-size: 13px;
+        color: #808080;
         line-height: 28px;
         text-align: left;
         letter-spacing: 1px;
+        &::selection {
+          color: #000;
+          font-size: 14px;
+          font-weight: bold;
+        }
+        &::-moz-selection {
+          color: #000;
+          font-size: 14px;
+          font-weight: bold;
+        }
       }
       img{
         display: inline-block;
         max-width: 100%;
-        margin: 40px 0;
+        //margin: 40px 0;
       }
       img:last-child{
-        margin-bottom: 80px;
+        //margin-bottom: 80px;
+      }
+      .nature {
+        width: 600px;
       }
     }
     .itemContainer:last-child{

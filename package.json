@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "jquery": "^3.1.1",
+    "pgwslideshow": "^2.0.0",
     "swiper": "^3.4.1"
   },
   "devDependencies": {

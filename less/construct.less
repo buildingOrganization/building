@@ -8,20 +8,42 @@
     .objectItem{
       position: relative;
       float: left;
-      margin-top: 20px;
+      overflow: hidden;
+      a {
+        display: block;
+        margin-top: 2%;
+      }
       img{
-        width: 95%;
-        &:hover {
+        width: 98%;
+        display: block;
+        /*&:hover {
           opacity: .8;
           cursor: pointer;
           filter:alpha(opacity=80);
-        }
+        }*/
       }
       span{
         display: none;
         position: absolute;
         bottom: -15px;
         left: 0;
+      }
+      .layer {
+        width: 98%;
+        height: 50px;
+        line-height: 50px;
+        position: absolute;
+        left: 0;
+        bottom: -50px;
+        background-color: #000;
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+        transition: .5s;
+        text-align: center;
+        color: #fff;
+      }
+      &:hover .layer{
+        bottom: 0;
       }
     }
     .objectItem:hover{
