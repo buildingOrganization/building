@@ -27,7 +27,7 @@ var objectDetail = {
     _renderPage : function () {
         var dom = ''
         $.each(this.data.img,function (i, item) {
-            dom += "<li><img class='img' style='height: 80px;' index='"+i+"' src='"+item+"'></li>"
+            dom += "<li><img class='img' style='width:auto; height: 80px;' index='"+i+"' src='"+item+"'></li>"
         })
         $('.subImg').append(dom)
         $('.name').text(this.data.name)
