@@ -42,10 +42,10 @@ var objectDetail = {
         $('.swiper-wrapper').html("");
         $('.slideContainer').css('height',$('body').css('height')).show()
         var index = $ele.attr('index')
-        var dom = "<div class='swiper-slide'><div class='imgContainer'><img class='slideImg' src='"+this.data.img[index]+"'></div></div>"
+        var dom = "<div class='swiper-slide'><img class='slideImg' src='"+this.data.img[index]+"'></div>"
         $.each(this.data.img,function (i, item) {
             if(i!=index){
-                dom += "<div class='swiper-slide'><div class='imgContainer'><img class='slideImg' src='"+item+"'></div></div>"
+                dom += "<div class='swiper-slide'><img class='slideImg' src='"+item+"'></div>"
             }
         })
         $('.swiper-wrapper').append(dom)
